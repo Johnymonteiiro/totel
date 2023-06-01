@@ -25,7 +25,7 @@
 
 
 ### Note:
--- Is missing some functionalities
+``` Is missing some functionalities
 -- Adicional Components at some page
 -- Is missing Total Price calculating card 
 -- Statics texts
