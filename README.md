@@ -1,34 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">Totel</h1>
 
-## Getting Started
+### Start 
 
-First, run the development server:
+##### clone the project :
+ `use git clone `
+ `run yarn or npm`
+ `run yarn dev or npm run dev`
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+ ##### For production run: 
+ `yarn build`
+ `yarn start`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 🛠 Tecnologias
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- [Next.js](https://nextjs.org)
+- [React Icons](https://react-icons.github.io/react-icons)
+- [React js](https://pt-br.reactjs.org)
+- [Sass](https://sass-lang.com/)
+- [React-Leaflet](https://react-leaflet.js.org/docs/start-introduction/)
+- [Swiper](https://swiperjs.com/swiper-api)
+- [Aint Design](https://ant.design/)
+- [Date fns](https://date-fns.org/)
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+### Note:
+-- Is missing some functionalities
+-- Adicional Components at some page
+-- Is missing Total Price calculating card 
+-- Statics texts
+-- Is missing refactorations
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Author
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[Jhony Monteiro](http://linkedin.com/in/joao-sebastiao)

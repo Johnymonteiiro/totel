@@ -1,0 +1,61 @@
+.mapContainer {
+  position: relative;
+  border: 1px solid #dae0e6;
+  border-radius: 24px;
+  height: 480px;
+  margin-top: 24px;
+
+  .map {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    border-radius: 24px;
+    z-index: 1;
+
+    .toltip {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      padding: 1rem;
+      border-radius: 4px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+  }
+
+  .mapCotroller {
+    position: absolute;
+    right: 1rem;
+    bottom: 0;
+    z-index: 900;
+    height: 100%;
+    padding: 1rem 0.3rem;
+
+    button {
+      background: var(--white-100);
+      box-shadow: 0px 1px 2px -1px rgba(16, 24, 40, 0.1),
+        0px 1px 3px rgba(16, 24, 40, 0.1);
+      border-radius: 100px;
+      border: 1px solid var(--gray-50);
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.5rem;
+      margin-left: 0.4rem;
+      transition: all 0.4s ease-in-out;
+
+      &:hover {
+        transform: scale(1.07);
+      }
+    }
+
+    .zoomBtns {
+      position: absolute;
+      bottom: 1rem;
+      left: -2rem;
+      display: flex;
+      align-items: center;
+    }
+  }
+}

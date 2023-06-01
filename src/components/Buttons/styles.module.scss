@@ -1,0 +1,36 @@
+.primaryButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  background: none;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+  border: 1px solid var(--gray-20);
+  border-radius: 100px;
+  margin-right: 1rem;
+  font-size: 0.87rem;
+  width: auto;
+  padding: 0.8rem;
+  color: var(--black-100);
+  font-weight: 600;
+  transition: all .3s ease-in-out;
+
+  &:hover {
+    filter: brightness(0.8);
+  }
+}
+
+.secondButton {
+    max-width: 374px;
+    width: 100%;
+    background: var(--purple-100);
+    color: var(--white-100);
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.04);
+    border-radius: 100px;
+    padding: 12px 18px;
+    transition: all .3s ease-in-out;
+
+    &:hover {
+        filter: brightness(0.9);
+    }
+}

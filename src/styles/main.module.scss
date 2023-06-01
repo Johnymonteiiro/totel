@@ -1,0 +1,250 @@
+
+.container {
+  max-width: 1264px;
+  padding: 0 2rem;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.wrapper {
+  //filter section
+
+  .filters {
+    margin-top: 2rem;
+    margin-bottom: 8px;
+    button {
+      background: var(--purple-20);
+      padding: 3px 1rem;
+      font-size: 0.72rem;
+      font-weight: 500;
+      border-radius: 100px;
+      color: var(--purple-100);
+
+      &:nth-child(2) {
+        margin-left: 8px;
+        background: var(--green-20);
+        color: var(--green-100);
+      }
+    }
+
+    @media only screen and (max-width: 900px) {
+      margin-top: 0;
+      padding-top: 8rem;
+    }
+  }
+
+  //home text section
+  .homeContent {
+    .homeText {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .homeTitle {
+        h1 {
+          font-weight: 700;
+        }
+        p {
+          padding: 0.5rem 0;
+          font-weight: 500;
+          color: var(--gray-50);
+          font-size: 1.12rem;
+        }
+      }
+
+      .actionsBtn {
+        display: flex;
+        align-items: center;
+      }
+
+      @media only screen and (max-width: 710px) {
+        flex-direction: column;
+        align-items: normal;
+        justify-content: flex-start;
+
+        .actionsBtn {
+          margin-top: 1rem;
+        }
+      }
+    }
+  }
+
+    //Hotel section
+  .hotelInfo {
+    display: flex;
+    margin-bottom: 2rem;
+
+    .hotelDetails {
+      flex: 0.75;
+      @media only screen and (max-width: 1214px){
+        flex: 0.60;
+      }
+
+      padding-right: 2rem;
+      .profileArea {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+
+        @media only screen and (max-width: 450px){
+          flex-direction: column;
+          align-items: normal;
+          justify-content: flex-start;
+
+          .profileBtn {
+            display: flex;
+            margin-top: 1rem;
+          }
+        }
+      }
+
+      .protectedPayment {
+        max-width: 554px;
+        width: 100%;
+        display: flex;
+        font-size: 0.8rem;
+        margin-bottom: 2rem;
+
+        svg {
+          margin-right: 1.01rem;
+          color: var(--purple-50);
+        }
+      }
+
+      .hotelDescription {
+        strong {
+          font-size: 1.2rem;
+        }
+
+        p {
+          font-weight: 400;
+          font-size: 1rem;
+          line-height: 24px;
+          letter-spacing: -0.1px;
+          margin-top: 24px;
+          margin-bottom: 16px;
+        }
+
+        .hotelDescriptionBtn {
+          display: flex;
+          margin-bottom: 2rem;
+        }
+      }
+
+      .amenities {
+        strong {
+          font-size: 1.2rem;
+        }
+
+        .amenitiesBtn {
+          display: flex;
+          margin: 1rem 0;
+        }
+      }
+    }
+
+    .hotelsSidebar {
+      flex: 0.35;
+
+      a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        text-align: center;
+        text-decoration: underline;
+        font-weight: 400;
+        font-size: 0.87rem;
+        line-height: 20px;
+        color: #6b7280;
+        margin-top: 24px;
+
+        svg {
+          margin-right: 0.4rem;
+        }
+      }
+
+      @media only screen and (max-width: 1214px){
+        flex: 0.40;
+      }
+    }
+
+    @media only screen and (max-width: 900px){
+       flex-direction: column;
+    }
+  }
+
+    //Map section
+  .mapContainer {
+    .mapContent {
+      p {
+        font-size: 1rem;
+        padding: 24px 0;
+        line-height: 24px;
+      }
+
+      .mapBtn {
+        display: flex;
+      }
+    }
+  }
+
+    //Testimonials section
+  .testimonialsContainer {
+    margin: 2rem 0;
+
+    .testimonialsContent {
+      p {
+        font-weight: 500;
+        font-size: 1.5rem;
+        svg {
+          color: var(--yellow-100);
+          margin-right: 4px;
+        }
+
+        span {
+          font-weight: 600;
+          font-size: 1.5rem;
+        }
+      }
+
+      .testimonialsBtn {
+        display: flex;
+      }
+    }
+  }
+
+  .hotelsContainer {
+    margin: 4rem 0 0 0;
+    padding: 4rem 0;
+    background: var(--white-50);
+
+    .hotelsContent {
+      .hotelsTexts {
+        display: flex;
+        justify-content: space-between;
+
+        .hotelsDescriptions {
+          max-width: 800px;
+          width: 100%;
+
+          p{
+            color: #5F6D7E;
+            margin-top: 1rem;
+          }
+        }
+
+        @media only screen and (max-width: 970px){
+          flex-direction: column;
+
+          .amenitiesBtn{
+            display: flex;
+            padding-top: 1rem;
+          }
+        }
+      }
+      
+    }
+  }
+}

@@ -1,0 +1,46 @@
+.swiper {
+  width: 100%;
+  padding: 2rem 0;
+  margin: 2rem 0;
+
+  .slide {
+    .slideItem {
+      .rating {
+        margin-right: 0.1rem;
+        color: var(--yellow-100);
+
+        &:nth-child(5) {
+          color: var(--gray-20);
+        }
+      }
+
+      p {
+        margin: 24px 0;
+        font-size: 1rem;
+        line-height: 24px;
+      }
+
+      .testimonialProfile {
+        display: flex;
+        align-items: center;
+
+        img {
+          border-radius: 100px;
+        }
+
+        .profileInfo {
+          margin-left: 10px;
+          p {
+            margin: 0;
+            font-weight: 600;
+            font-size: 0.9rem;
+          }
+
+          span {
+            color: #5f6d7e;
+          }
+        }
+      }
+    }
+  }
+}

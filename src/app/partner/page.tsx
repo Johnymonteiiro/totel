@@ -1,12 +1,11 @@
 
 import { Galeries } from "@/components/Galeries/Galeries";
-import { HotelInfo } from "./components/hotelInfo";
-import { HomeHero } from "./components/home";
-import styles from "../styles/main.module.scss";
-import { MapContent } from "./components/map";
-import { Testimonials } from "./components/testimonials";
-import { Hotels } from "./components/hotel";
-
+import { HotelInfo } from "../components/hotelInfo";
+import { HomeHero } from "../components/home";
+import { MapContent } from "../components/map";
+import { Testimonials } from "../components/testimonials";
+import { Hotels } from "../components/hotel";
+import styles from "../../styles/main.module.scss";
 
 export default function Home() {
   return (

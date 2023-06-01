@@ -1,0 +1,70 @@
+.swiper {
+  width: 100%;
+  padding: 2rem 0;
+  margin: 2rem 0;
+
+  .slide {
+    .slideItem {
+      overflow: hidden;
+      border-radius: 10px;
+      background: var(--white-100);
+      border: 1px solid var(--gray-20);
+
+      &:hover {
+        img {
+          transform: scale(1.04);
+        }
+      }
+
+      img {
+        max-height: 285px;
+        border-radius: 10px 10px 0 0;
+        height: 100%;
+        width: 100%;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        transition: all 1s;
+      }
+
+      .hotelsInfo {
+        position: relative;
+        padding: 1rem;
+
+        strong {
+          font-weight: 600;
+          font-size: 1.25rem;
+          line-height: 28px;
+        }
+
+        p {
+
+          &:nth-child(2){
+            color: var(--black-100);
+            padding: 8px 0;
+            font-weight: 500;
+          }
+
+          font-size: 1rem;
+          line-height: 20px;
+          color: #6B7B8F;
+          margin-bottom: 1rem;
+        }
+
+        span{
+          font-weight: 600;
+          font-size: 0.9rem;
+        }
+
+        .rate {
+          position: absolute;
+          right: 1rem;
+          top: 1rem;
+          font-size: 0.9rem;
+          svg{
+            margin-right: 3px;
+          }
+        }
+      }
+    }
+  }
+}
